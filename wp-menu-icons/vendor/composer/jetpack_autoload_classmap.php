@@ -19,15 +19,15 @@ return array(
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-autoloader-locator.php'
 	),
 	'Automattic\\Jetpack\\Assets' => array(
-		'version' => '4.3.0.0',
+		'version' => '4.3.2.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-assets/src/class-assets.php'
 	),
 	'Automattic\\Jetpack\\Assets\\Script_Data' => array(
-		'version' => '4.3.0.0',
+		'version' => '4.3.2.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-assets/src/class-script-data.php'
 	),
 	'Automattic\\Jetpack\\Assets\\Semver' => array(
-		'version' => '4.3.0.0',
+		'version' => '4.3.2.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-assets/src/class-semver.php'
 	),
 	'Automattic\\Jetpack\\Autoloader\\AutoloadFileWriter' => array(
@@ -63,43 +63,43 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-constants/src/class-constants.php'
 	),
 	'Automattic\\Jetpack\\CookieState' => array(
-		'version' => '6.0.0.0',
+		'version' => '6.0.2.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-cookiestate.php'
 	),
 	'Automattic\\Jetpack\\Errors' => array(
-		'version' => '6.0.0.0',
+		'version' => '6.0.2.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-errors.php'
 	),
 	'Automattic\\Jetpack\\Files' => array(
-		'version' => '6.0.0.0',
+		'version' => '6.0.2.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-files.php'
 	),
 	'Automattic\\Jetpack\\Modules' => array(
-		'version' => '6.0.0.0',
+		'version' => '6.0.2.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-modules.php'
 	),
 	'Automattic\\Jetpack\\Paths' => array(
-		'version' => '6.0.0.0',
+		'version' => '6.0.2.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-paths.php'
 	),
 	'Automattic\\Jetpack\\Status' => array(
-		'version' => '6.0.0.0',
+		'version' => '6.0.2.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-status.php'
 	),
 	'Automattic\\Jetpack\\Status\\Cache' => array(
-		'version' => '6.0.0.0',
+		'version' => '6.0.2.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-cache.php'
 	),
 	'Automattic\\Jetpack\\Status\\Host' => array(
-		'version' => '6.0.0.0',
+		'version' => '6.0.2.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-host.php'
 	),
 	'Automattic\\Jetpack\\Status\\Request' => array(
-		'version' => '6.0.0.0',
+		'version' => '6.0.2.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-request.php'
 	),
 	'Automattic\\Jetpack\\Status\\Visitor' => array(
-		'version' => '6.0.0.0',
+		'version' => '6.0.2.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-visitor.php'
 	),
 	'Container' => array(
@@ -667,119 +667,119 @@ return array(
 		'path'    => $vendorDir . '/franmastromarino/wp-plugin-feedback/src/Validator.php'
 	),
 	'QuadLayers\\WPMI\\Api\\Rest\\Endpoints\\Backend\\Base' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/api/rest/endpoints/backend/class-base.php'
 	),
 	'QuadLayers\\WPMI\\Api\\Rest\\Endpoints\\Backend\\Libraries\\Get' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/api/rest/endpoints/backend/libraries/class-get.php'
 	),
 	'QuadLayers\\WPMI\\Api\\Rest\\Endpoints\\Backend\\Navmenu\\Get' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/api/rest/endpoints/backend/navmenu/class-get.php'
 	),
 	'QuadLayers\\WPMI\\Api\\Rest\\Endpoints\\Backend\\Settings\\Delete' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/api/rest/endpoints/backend/settings/class-delete.php'
 	),
 	'QuadLayers\\WPMI\\Api\\Rest\\Endpoints\\Backend\\Settings\\Get' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/api/rest/endpoints/backend/settings/class-get.php'
 	),
 	'QuadLayers\\WPMI\\Api\\Rest\\Endpoints\\Backend\\Settings\\Post' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/api/rest/endpoints/backend/settings/class-post.php'
 	),
 	'QuadLayers\\WPMI\\Api\\Rest\\Endpoints\\Base' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/api/rest/endpoints/class-base.php'
 	),
 	'QuadLayers\\WPMI\\Api\\Rest\\Endpoints\\Route' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/api/rest/endpoints/interface-route.php'
 	),
 	'QuadLayers\\WPMI\\Api\\Rest\\Routes_Library' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/api/rest/class-routes-library.php'
 	),
 	'QuadLayers\\WPMI\\Controllers\\Backend' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/controllers/class-backend.php'
 	),
 	'QuadLayers\\WPMI\\Controllers\\Frontend' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/controllers/class-frontend.php'
 	),
 	'QuadLayers\\WPMI\\Controllers\\Libraries' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/controllers/class-libraries.php'
 	),
 	'QuadLayers\\WPMI\\Controllers\\Navmenu' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/controllers/class-navmenu.php'
 	),
 	'QuadLayers\\WPMI\\Entities\\Libraries\\Base' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/entities/libraries/class-base.php'
 	),
 	'QuadLayers\\WPMI\\Entities\\Libraries\\Dashicons' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/entities/libraries/class-dashicons.php'
 	),
 	'QuadLayers\\WPMI\\Entities\\Libraries\\Elegant_Icons' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/entities/libraries/class-elegant-icons.php'
 	),
 	'QuadLayers\\WPMI\\Entities\\Libraries\\Elusive' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/entities/libraries/class-elusive.php'
 	),
 	'QuadLayers\\WPMI\\Entities\\Libraries\\Fontawesome' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/entities/libraries/class-fontawesome.php'
 	),
 	'QuadLayers\\WPMI\\Entities\\Libraries\\Fontello' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/entities/libraries/class-fontello.php'
 	),
 	'QuadLayers\\WPMI\\Entities\\Libraries\\Foundation' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/entities/libraries/class-foundation.php'
 	),
 	'QuadLayers\\WPMI\\Entities\\Libraries\\Icomoon' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/entities/libraries/class-icomoon.php'
 	),
 	'QuadLayers\\WPMI\\Entities\\Libraries\\Library' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/entities/libraries/interface-library.php'
 	),
 	'QuadLayers\\WPMI\\Entities\\Libraries\\Themify' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/entities/libraries/class-themify.php'
 	),
 	'QuadLayers\\WPMI\\Menu_Item_Custom_Fields_Walker' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/class-menu-item-custom-fields-walker.php'
 	),
 	'QuadLayers\\WPMI\\Models\\Base' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/models/class-base.php'
 	),
 	'QuadLayers\\WPMI\\Models\\Libraries' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/models/class-libraries.php'
 	),
 	'QuadLayers\\WPMI\\Models\\Navmenu' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/models/class-navmenu.php'
 	),
 	'QuadLayers\\WPMI\\Models\\Settings' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/models/class-settings.php'
 	),
 	'QuadLayers\\WPMI\\Plugin' => array(
-		'version' => '3.3.6.0',
+		'version' => '3.3.7.0',
 		'path'    => $baseDir . '/lib/class-plugin.php'
 	),
 	'QuadLayers\\WP_Dashboard_Widget_News\\Load' => array(
