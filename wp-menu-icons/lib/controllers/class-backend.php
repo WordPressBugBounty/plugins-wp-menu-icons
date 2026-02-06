@@ -19,7 +19,7 @@ class Backend {
 		add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_scripts' ) );
 		add_action( 'admin_menu', array( $this, 'add_menu' ) );
 		add_action( 'admin_head', array( __CLASS__, 'add_premium_js' ) );
-		add_action( 'admin_footer', array( __CLASS__, 'add_premium_css' ) );
+		add_action( 'admin_footer', array( __CLASS__, 'add_premium_style' ) );
 	}
 
 	public function register_scripts() {
@@ -90,18 +90,18 @@ class Backend {
 			'wpmi-backend',
 			'wpmi_backend',
 			array(
-				'plugin_url'             => plugins_url( '/', WPMI_PLUGIN_FILE ),
-				'WPMI_PLUGIN_NAME'       => WPMI_PLUGIN_NAME,
-				'WPMI_PLUGIN_VERSION'    => WPMI_PLUGIN_VERSION,
-				'WPMI_PLUGIN_FILE'       => WPMI_PLUGIN_FILE,
-				'WPMI_PLUGIN_DIR'        => WPMI_PLUGIN_DIR,
-				'WPMI_DOMAIN'            => WPMI_DOMAIN,
-				'WPMI_PREFIX'            => WPMI_PREFIX,
-				'WPMI_WORDPRESS_URL'     => WPMI_WORDPRESS_URL,
-				'WPMI_REVIEW_URL'        => WPMI_REVIEW_URL,
-				'WPMI_GROUP_URL'         => WPMI_GROUP_URL,
-				'WPMI_DEVELOPER'         => WPMI_DEVELOPER,
-				'WPMI_SETTING_MODEL'     => $models_settings->get_args(),
+				'plugin_url'          => plugins_url( '/', WPMI_PLUGIN_FILE ),
+				'WPMI_PLUGIN_NAME'    => WPMI_PLUGIN_NAME,
+				'WPMI_PLUGIN_VERSION' => WPMI_PLUGIN_VERSION,
+				'WPMI_PLUGIN_FILE'    => WPMI_PLUGIN_FILE,
+				'WPMI_PLUGIN_DIR'     => WPMI_PLUGIN_DIR,
+				'WPMI_DOMAIN'         => WPMI_DOMAIN,
+				'WPMI_PREFIX'         => WPMI_PREFIX,
+				'WPMI_WORDPRESS_URL'  => WPMI_WORDPRESS_URL,
+				'WPMI_REVIEW_URL'     => WPMI_REVIEW_URL,
+				'WPMI_GROUP_URL'      => WPMI_GROUP_URL,
+				'WPMI_DEVELOPER'      => WPMI_DEVELOPER,
+				'WPMI_SETTING_MODEL'  => $models_settings->get_args(),
 			)
 		);
 
@@ -211,7 +211,7 @@ class Backend {
 	<?php
 	}
 
-	public static function add_premium_css() {
+	public static function add_premium_style() {
 		?>
 		<style>
 			.wpmi__premium-field {
