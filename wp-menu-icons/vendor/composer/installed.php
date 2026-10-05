@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'quadlayers/wp-menu-icons',
-        'pretty_version' => 'v3.4.5',
-        'version' => '3.4.5.0',
-        'reference' => '501956df4fb7b9878d5be788992b60b021be7ebe',
+        'pretty_version' => 'v3.4.6',
+        'version' => '3.4.6.0',
+        'reference' => '521b5184ab128f98ea9c37a442ff59cff97a22e0',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -83,9 +83,9 @@
             'dev_requirement' => false,
         ),
         'quadlayers/wp-menu-icons' => array(
-            'pretty_version' => 'v3.4.5',
-            'version' => '3.4.5.0',
-            'reference' => '501956df4fb7b9878d5be788992b60b021be7ebe',
+            'pretty_version' => 'v3.4.6',
+            'version' => '3.4.6.0',
+            'reference' => '521b5184ab128f98ea9c37a442ff59cff97a22e0',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
